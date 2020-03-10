@@ -1,0 +1,52 @@
+body, html {
+  margin: 0;
+}
+#evelyn_app {
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ position: relative;
+}
+#non_verbal {
+  display: flex;
+  background-color: #A8D841;
+  width: 400px;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 25px;
+  color: white;
+  position: relative;
+}
+#verbal {
+  display: flex;
+  background-color: #4CC9FF;
+  width: 400px;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25px;
+  color: white;
+  position: relative;
+}
+html, h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+
+/* question 1 */
+#Q1_top {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  align-items: center;
+  justi
+}
+.imgs {
+  max-width: 200px;
+  max-height: 200px;
+}
