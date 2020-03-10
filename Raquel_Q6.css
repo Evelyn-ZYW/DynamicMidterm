@@ -1,0 +1,25 @@
+#question6{
+    text-align: center;
+}
+
+#Q6_statments{
+    margin-top: 100px;
+}
+
+
+#Q6_human_imgs{
+  margin-bottom: 80px;
+  margin-top: 50px;
+   
+}
+
+.Q6_imgs{
+   max-height: 200px;
+   max-width: 250px ;
+   overflow: hidden;
+}
+
+
+.verbal-buttons-Agree{
+   margin: 20px;
+}
