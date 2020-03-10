@@ -39,14 +39,39 @@ html, h1 {
 }
 
 /* question 1 */
-#Q1_top {
+#Q1 {
   display: flex;
-  width: 500px;
-  height: 500px;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
   align-items: center;
-  justi
+
+}
+#Q1_top {
+  position: relative;
+  display: flex;
+  width: 800px;
+  height: 600px;
+  background-color: yellow;
+  flex-direction: column;
+}
+.q1images{
+  display: flex;
+  width: 800px;
 }
 .imgs {
   max-width: 200px;
   max-height: 200px;
+  display: flex;
+}
+#Q1_bottom {
+  position: relative;
+  display: flex;
+  width: 800px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  background-color: yellow;
+  flex-direction: row;
+  margin-top: 50px;
 }
