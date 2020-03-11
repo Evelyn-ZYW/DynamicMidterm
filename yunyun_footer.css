@@ -15,7 +15,7 @@ html body{
     top: 20px;
     display: flex;
     position: relative;
-    width: 95%;
+    width: 100%;
     text-align: center;
     flex-grow: 1;
     justify-content: center;
