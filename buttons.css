@@ -1,0 +1,37 @@
+.non-verbal-buttons,
+.verbal-buttons-Agree,
+.verbal-buttons-Disagree {
+  display: inline-block;
+  font-size: 24px;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  padding: 16px 40px;
+  text-align: center;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  font-family: "acme", sans-serif;
+}
+
+.non-verbal-buttons:hover {
+  opacity: 1
+}
+.non-verbal-buttons {
+  background-color: #4cc9ff;
+}
+.verbal-buttons-Agree {
+  background-color: #a8d841;
+}
+.verbal-buttons-Disagree {
+  background-color: red;
+}
+.verbal-buttons-Agree:hover,
+.verbal-buttons-Disagree:hover
+ {
+  opacity: 1
+}

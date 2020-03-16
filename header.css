@@ -1,0 +1,59 @@
+/* header */
+
+html, body {
+  margin: 0;
+}
+
+#header {
+  height: 20vh;
+  width: 100vw;
+  background-color: #ffc94c;
+  position: relative;
+}
+
+#header_logo {
+  position: absolute;
+  right: 0;
+  top: -15px;
+  max-width: 200px;
+}
+#header_phasa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#header_phasa span {
+  font-family: 'Caveat Brush', cursive;
+  font-size: 70px;
+  color: white;
+}
+
+#header_buttons button:hover {
+  opacity: 1
+}
+
+#header_buttons {
+  display: flex;
+  position: absolute;
+  bottom: 15px;
+  margin: 0;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+
+#header_buttons button {
+  flex-grow: 1;
+  margin: 0 5em 0 5em;
+  font-family: 'Acme', sans-serif;
+  background-color: #ff764c;
+  font-size: 20px;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 9px #999;
+  opacity: 0.8;
+  transition: 0.3s;
+  max-width: 300px;
+  max-height: 50px;
+  color: white;
+}
