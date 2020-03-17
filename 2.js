@@ -27,7 +27,7 @@ var t1_qs = [
     Text2: "or",
     img4: "imgs/bunny.png",
     answer: 2,
-    correctexplain: "because it is correct"
+    correctexplain: "You have learnt logical thinking - Analogical Reasoning. It cites accepted similarities between two systems to support the conclusion that some further similarity exists. <br><br> Each line contains two bunnies and two turtles, therefore the correct answer is the 'bunny'. "
   }
 ];
 
@@ -39,13 +39,14 @@ var t2_qs = [
     text1: "What does it look like from its left side?",
     img2: "imgs/q2_2.png",
     answer: 3,
-    correctexplain: "because it is correct"
+    correctexplain: "You have learnt logical thinking - Spatial Reasoning. It is the ability to think about objects in three dimensions and to draw conclusions about those objects from limited information. These skills are valuable in many real-world situations and can be improved with practice. <br><br>The correct answer is C."
   },
   {
     img1: "imgs/q3_1.png",
     text1: "How does it look like from looking above?",
     img2: "imgs/q3_2.png",
     answer: 2,
+    correctexplain: "You have learnt logical think - Visual Reasoning. It is the ability to understand and analyze visual information and solve problems. <br><br>The correct answer is B."
   }
 ];
 
@@ -57,7 +58,7 @@ var t3_qs = [
     text1: "How many moves you need to get to below result?",
     img2: "imgs/match2.png",
     answer: 1,
-    correctexplain: "because it is correct"
+    correctexplain: "You have practised a logical puzzle - matches game. <br><br>The correct answer is '3 moves'."
   }
 ];
 
@@ -69,17 +70,18 @@ var t4_qs = [
     img1: "imgs/q5_1.png",
     text3: "All cats are viviparity.",
     answer: 1,
-    correctexplain: "because it is correct"
+    correctexplain: "This question is a form of Deductive Reasoning. The 2 statements are logically true and realistically true. <br><br>The correct answer is 'Agree'."
   },
   {
     text1: "Statement 1: Human are mammals.",
     text2: "Statement 2: The city is full of mammals.",
     img1: "imgs/q6_1.png",
     text3: "The city is full of human.",
-    answer: 2
+    answer: 2,
+    correctexplain: "This question is a form of Inductive Reasoning. The 2 statements are logically true but realistically may or maynot be true. <br><br>The correct answer is 'Disagree'."
   }
 ];
- 
+
 var t5_ind = 0;
 var t5_qs = [
   {
@@ -88,7 +90,7 @@ var t5_qs = [
     img1: "imgs/q7_1.png",
     text3: "Do you agree with above conversation?",
     answer: 2,
-    correctexplain: "because it is correct"
+    correctexplain: "This question is a form of Logical Fallacy. The conversation incorrectly identifies the cause of something which is a logical fallacy. Correlation does not equal causation. <br><br>The correct answer is 'Disagree'."
   },
   {
     text1: "Birds have beaks.",
@@ -96,5 +98,6 @@ var t5_qs = [
     img1: "imgs/q8_1.png",
     text3: "Do you agree with below? <br><br> Therefore bird is turtle.",
     answer: 2,
+    correctexplain: "This question is a form of Inductive Reasoning. The 2 statements are logically true but realistically may or maynot be true. <br><br>The correct answer is 'Disagree'."
   }
 ];

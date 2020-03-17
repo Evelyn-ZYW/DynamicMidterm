@@ -46,7 +46,7 @@ function display_wrong(n) {
 function CheckAnswer1(n) {
   reset_everything();
   document.querySelector(".type6").style.display = "flex";
-  document.querySelector("#explain").innerHTML = t1_qs[t1_ind].correctexplain;
+  document.querySelector("#explain_A").innerHTML = t1_qs[t1_ind].correctexplain;
   if (n === t1_qs[t1_ind].answer) {
     display_correct(1);
   } else {
@@ -56,7 +56,7 @@ function CheckAnswer1(n) {
 function CheckAnswer2(n) {
   reset_everything();
   document.querySelector(".type6").style.display = "flex";
-  document.querySelector("#explain").innerHTML = t2_qs[t2_ind].correctexplain;
+  document.querySelector("#explain_A").innerHTML = t2_qs[t2_ind].correctexplain;
   if (n === t2_qs[t2_ind].answer) {
     display_correct(1);
   } else {
@@ -67,7 +67,7 @@ function CheckAnswer2(n) {
 function CheckAnswer3(n) {
   reset_everything();
   document.querySelector(".type6").style.display = "flex";
-  document.querySelector("#explain").innerHTML = t3_qs[t3_ind].correctexplain;
+  document.querySelector("#explain_A").innerHTML = t3_qs[t3_ind].correctexplain;
   if (n === t3_qs[t3_ind].answer) {
     display_correct(1);
   } else {
@@ -78,7 +78,7 @@ function CheckAnswer3(n) {
 function CheckAnswer4(n) {
   reset_everything();
   document.querySelector(".type8").style.display = "flex";
-  document.querySelector("#explain").innerHTML = t4_qs[t4_ind].correctexplain;
+  document.querySelector("#explain_B").innerHTML = t4_qs[t4_ind].correctexplain;
   if (n === t4_qs[t4_ind].answer) {
     display_correct(2);
   } else {
@@ -90,7 +90,7 @@ function CheckAnswer4(n) {
 function CheckAnswer5(n) {
   reset_everything();
   document.querySelector(".type8").style.display = "flex";
-  document.querySelector("#explain").innerHTML = t5_qs[t5_ind].correctexplain;
+  document.querySelector("#explain_B").innerHTML = t5_qs[t5_ind].correctexplain;
   if (n === t5_qs[t5_ind].answer) {
     display_correct(2);
   } else {
