@@ -19,7 +19,7 @@ function nav_modes(n) {
   if (n === 1) {
     reset_everything();
     document.querySelector(".type1").style.display = "flex";
-  } else {
+  } else if (n === 2){
     reset_everything();
     StartType_B();
   }
@@ -156,4 +156,9 @@ function congratz() {
   } else {
     document.querySelector("#t7_txt1").innerHTML = end_quiz[1].text1;
   }
+  t1_ind = 0;
+  t2_ind = 0;
+  t3_ind = 0;
+  t4_ind = 0;
+  t5_ind = 0;
 }
