@@ -9,6 +9,7 @@ html, body {
   width: 100vw;
   background-color: #ffc94c;
   position: relative;
+  overflow: hidden;
 }
 
 #header_logo {

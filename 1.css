@@ -4,7 +4,8 @@ html body {
 
 #app {
   display: flex;
-  position: relative;
+  position: absolute;
+  /* margin: 0; */
 }
 
 #app p {
