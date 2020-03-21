@@ -1,0 +1,171 @@
+html body {
+  margin: 0;
+}
+
+#app {
+  display: flex;
+  position: absolute;
+  /* margin: 0; */
+}
+
+#app p {
+  font-style: italic;
+  font-size: 25px;
+}
+
+/* homepage */
+
+#homepage {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-family: 'Acme', sans-serif;
+}
+
+#homepage img {
+  position: absolute;
+  opacity: 0.3;
+  max-height: 50vh;
+}
+
+#homepage div {
+  display: flex;
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 25px;
+  margin-left: 25px;
+  color: white;
+  position: relative;
+  opacity: 0.9;
+}
+
+#non_verbal {
+  background-color: #4CC9FF;
+}
+
+#verbal {
+  background-color: #A8D841;
+}
+
+#homepage h1 {
+  display: inline-block;
+  text-align: center;
+  width: 250px;
+}
+
+.homepage_buttons:hover {
+  border: 5px solid #ff764c;
+  transition: 0.3s;
+}
+
+/* general layout of each question container */
+
+.type1, .type2, .type3, .type4, .type5, .type6, .type7, .type8 {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+  display: none;
+}
+
+/* question 1 */
+
+#t1_img1 {
+  max-width: 400px;
+  max-height: 400px;
+  display: flex;
+}
+
+#bunny, #turtle {
+  max-width: 100px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+#bunny:hover, #turtle:hover {
+  border: 5px solid #ff764c;
+  transition: 0.3s;
+}
+
+#t1_bottom {
+  position: relative;
+  display: flex;
+  /* width: 800px; */
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+/* question 2 & 3 */
+
+#t2_top {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#t2_img1 {
+  max-width: 200px;
+}
+
+#t2_txt1 {
+  width: 200px;
+  height: 50px;
+}
+
+#t2_img2 {
+  max-width: 500px;
+}
+
+#t2_bottom {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+#button_A, #button_B, #button_C {
+  margin: 35px;
+}
+
+/* question 4 */
+
+#match1 {
+  max-width: 200px;
+}
+
+#match2 {
+  max-width: 250px;
+}
+
+/* question 5 6 7 8 */
+
+#t4_img1,
+#t5_img1
+
+  {
+  max-width: 450px;
+}
+
+/* Question 7 extra */
+
+.type5_statements {
+  display: flex;
+  width: 600px;
+}
+
+.type5_statements h3 {
+  margin: 20px;
+  text-align: center;
+  width: 300px;
+}

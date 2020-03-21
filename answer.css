@@ -1,0 +1,15 @@
+.type6 img, .type8 img, .type7 img {
+max-width:100px;
+}
+#answer_key {
+  border: 5px solid #4CC9FF;
+  width: 400px;
+  height: 200px;
+  border-radius: 15px;
+  padding: 10px;
+  padding-top: 10px;
+  margin: 15px 0 10px 0;
+}
+.type6 p {
+  font-size: 20px;
+}
